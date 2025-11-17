@@ -10,7 +10,7 @@ export default function UserCard(props) {
             <p>{props.data.phone}</p>
             <p>{props.data.location.street.number} {props.data.location.street.name}, {props.data.location.city}, {props.data.location.state}, {props.data.location.country}, {props.data.location.postcode}</p>
             <p>{props.data.email}</p>
-            <button onClick={props.refresh} id="refresh-btn">Refresh</button>
+            <button onClick={props.refresh} id="refresh-btn">Regenerate</button>
         </div>
     );
 }

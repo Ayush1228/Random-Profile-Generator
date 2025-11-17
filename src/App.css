@@ -44,23 +44,12 @@
   color: #888;
 }
 
-.post-card {
-  padding: 1em;
-  margin-bottom: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: azure;
-  border-radius: 10px;
-}
-.post-card:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s;
-}
 
 .user-card{
   padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 2rem;
-  background-color: azure;
+  background-color: rgb(202, 240, 240);
   border-radius: 10px;
 }
 
@@ -70,13 +59,17 @@
 #refresh-btn{
   border: black 1px solid;
   border-radius: 5px;
+  background-color: red;
+  color: aliceblue;
+
 }
 }
 
-/* #refresh-btn{
+#refresh-btn{
   border: black 1px solid;
   border-radius: 5px;
-} */
+  background-color: aquamarine;
+}
 
 .user-img{
   border-radius: 50%;
