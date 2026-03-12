@@ -1,16 +1,130 @@
-# React + Vite
+# 👤 Random Profile Generator (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Random Profile Generator built with React.js** that generates random user profiles including personal details and profile images.
 
-Currently, two official plugins are available:
+The application fetches user data from an API and dynamically displays profile information such as name, email, location, and avatar. This project is useful for **UI testing, dummy data generation, and learning API integration in React**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 **GitHub Repository**  
+https://github.com/Ayush1228/Random-Profile-Generator
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Features
 
-## Expanding the ESLint configuration
+- 👤 **Random User Profile Generation**  
+  Instantly generates random user profiles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🖼️ **Profile Avatar Display**  
+  Displays profile images along with user information.
+
+- 📧 **User Details**  
+  Shows important information such as:
+  - Name
+  - Email
+  - Location
+  - Profile Picture
+
+- 🔄 **Generate New Profile**  
+  Users can generate a new random profile with one click.
+
+- ⚡ **Dynamic Data Fetching**  
+  Uses API calls to fetch and update profile data dynamically.
+
+- 📱 **Responsive UI**  
+  Works smoothly across desktop and mobile devices.
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### API
+- Random User API
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- npm
+
+---
+
+
+# ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Ayush1228/Random-Profile-Generator.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd Random-Profile-Generator
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the development server
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📂 Project Structure
+
+```
+Random-Profile-Generator
+│
+├── public
+│   └── index.html
+│
+├── src
+│   ├── components
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# 💡 Future Improvements
+
+- 🔎 Generate multiple profiles at once
+- 💾 Save favorite profiles
+- 🌙 Dark / Light mode
+- 📊 Profile filtering options
+- 📱 Improved mobile UI
+
+---
+
+# 👨‍💻 Author
+
+**Ayush Kumar**
+
+- GitHub: https://github.com/Ayush1228
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
